@@ -1,22 +1,39 @@
+##################################################################
+# Author       : Sinesio Bittencourt
+# Email        : contato@sinesio.com.br
+# Info         : Install Ruby (V 2.1.1) >> Check new version in http://ftp.ruby-lang.org/pub/ruby
+# Project      : http://git.sinesio.com.br or https://github.com/sinesiobittencourt/
+##################################################################
 
-# Install Ruby (V 2.1.1) >> Check new version in http://ftp.ruby-lang.org/pub/ruby
+1.
+curl -O  http://ftp.ruby-lang.org/pub/ruby/2.1/ruby-2.1.1.tar.gz 
 
-wget http://ftp.ruby-lang.org/pub/ruby/2.1/ruby-2.1.1.tar.gz 
+2.
 tar xvzf ruby-2.1.1.tar.gz
+
+3.
 cd ruby-2.1.1
+
+4.
+# chmod -x in configure
 ./configure --prefix=/usr
+
+5.
 make
+
+6.
 make install
 
-# remove "ruby-2.1.1" folder in /root
+# Install Gems 
 
-# Install RubyGems 
-
-wget http://production.cf.rubygems.org/rubygems/rubygems-1.8.25.tgz
+Curl -O http://production.cf.rubygems.org/rubygems/rubygems-1.8.25.tgz
 tar xvzf rubygems-1.8.25.tgz
 cd rubygems-1.8.25
 ruby setup.rb config
 ruby setup.rb setup
 ruby setup.rb install
 
-# remove "rubygems-1.8.25" folder in /root
+gem list
+
+Remove folder >> ruby-2.1.1
+Remove folder >> rubygems-1.8.25
