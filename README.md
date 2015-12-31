@@ -1,3 +1,4 @@
-# Install_Ruby_and_Gems
+# Install Ruby and Gems
 
-2.1.1
+Check new version in http://ftp.ruby-lang.org/pub/ruby
+
