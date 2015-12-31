@@ -1,0 +1,22 @@
+
+# Install Ruby (V 2.1.1) >> Check new version in http://ftp.ruby-lang.org/pub/ruby
+
+wget http://ftp.ruby-lang.org/pub/ruby/2.1/ruby-2.1.1.tar.gz 
+tar xvzf ruby-2.1.1.tar.gz
+cd ruby-2.1.1
+./configure --prefix=/usr
+make
+make install
+
+# remove "ruby-2.1.1" folder in /root
+
+# Install RubyGems 
+
+wget http://production.cf.rubygems.org/rubygems/rubygems-1.8.25.tgz
+tar xvzf rubygems-1.8.25.tgz
+cd rubygems-1.8.25
+ruby setup.rb config
+ruby setup.rb setup
+ruby setup.rb install
+
+# remove "rubygems-1.8.25" folder in /root
