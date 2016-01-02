@@ -9,3 +9,8 @@ Help and documentation for the Ruby programming language.
 Gems can be used to extend or modify functionality in Ruby applications. 
 
   http://guides.rubygems.org/
+
+We will be setting up a Ruby on Rails development environment on Mac OS
+
+  Installing Homebrew >> ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)" 
+  Website > http://brew.sh/
