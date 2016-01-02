@@ -2,15 +2,15 @@
 
   Check new version in http://ftp.ruby-lang.org/pub/ruby
 
-Help and documentation for the Ruby programming language.
+#Help and documentation for the Ruby programming language.
   
   http://ruby-doc.org/downloads/
 
-Gems can be used to extend or modify functionality in Ruby applications. 
+#Gems can be used to extend or modify functionality in Ruby applications. 
 
   http://guides.rubygems.org/
 
-We will be setting up a Ruby on Rails development environment on Mac OS
+#We will be setting up a Ruby on Rails development environment on Mac OS
 
   Installing Homebrew >> ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)" 
   
