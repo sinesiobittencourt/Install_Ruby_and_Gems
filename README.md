@@ -1,4 +1,4 @@
-# Install Ruby and Gems
+# Install Ruby on Rails and Gems
 
   Check new version in http://ftp.ruby-lang.org/pub/ruby
 
